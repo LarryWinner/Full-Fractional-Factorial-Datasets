@@ -1,0 +1,20 @@
+Dataset:  distillery_cod.dat
+
+Source: R.K. Prasad and S.N. Srivastava (2009). "Electrochemical
+Degradation of Distillery Spent Wash Using Catalytic Anode: Factorial 
+Design of Experiments," Chemical Engineering Journal, Vol. 146, pp. 22-29.
+
+Description: 2^4 Full Factorial assessing effecst of factors on chemical
+oxygen demand (COD) removal. Factors: Current Density, Dilution, Time, pH.
+
+Variables/Columns
+Run #    7-8
+Coded Current Density  15-16   /* -1=14.285 mA/cm^2  +1=42.857  */
+Coded dilution percent   23-24  /* -1=10  +1=30  */
+Coded time in hours   31-32   /* -1 =2, +1=5  */
+Coded pH   39-40   /* -1=4, +1=9  */
+Current density  43-48
+Dilution percent   55-56
+Time            64
+pH             72
+% COD Removal   74-80

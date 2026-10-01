@@ -1,0 +1,18 @@
+Dataset: pb2_walnut.csv
+
+Source: S. Saadat and A. Karimi-Jashni (2011). "Optimization of Pb(II) 
+Adsorption onto Modified Walnut Shells Using Factorial Design and
+Simplex Methodologies," Chemical Engineering Journal, Vol. 173, pp. 743-749.
+
+Description/Variables
+2^4 Factorial Experiment relating percent removal of Pb(II) ions from solution
+to 4 factors: pH(-1 = 2, +1 =10), walnut shell adsorbent dose (-1=1, +1=20),
+Initial metal concentration (-1=10, +1=90) Temperature (-1=15, +1=45).
+
+Variables
+Treatment condition  (trt)
+pH    (pH)
+walnut shell adsorbent dose in g/L  (adsorb_dose)
+Initial metal concentration in mg/L  (metal_conc)
+Temperature in Celsius  (temp)
+Percent Pb(II) Removal   (pb2_remove)

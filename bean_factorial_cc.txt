@@ -1,0 +1,18 @@
+Dataset:  bean_factorial_cc.csv
+
+Source: W.G. Cochran and G.M. Cox (1957). "Experimental Designs, 2nd Ed.",
+Wiley, NY. p. 189.
+
+Description: Results from a 2^4 factorial design on bean yield
+within 2 incomplete blocks nested within 2 replicates.
+Factors: D = Dung, N=Nitrochalk, P=Superphosphate, K=Muriate of potash.
+All were Absent (-1) or present (1).
+
+Variables/Labels:
+Replicate
+Block
+Dung
+Nchalk
+Phos
+Kmur
+Yield

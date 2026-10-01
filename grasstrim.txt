@@ -1,0 +1,17 @@
+Dataset:  grasstrim.dat
+
+Source: Z. Mallick (2010). "Optimization of the Operating Parameters
+of a Grass Trimming Machine," Applied Ergonomics, Vol. 41, pp.260-265.
+
+Description: Results of a 3^3 fractional factorial (L9 orthogonal
+array) experiment to determine effects of 3 factors on hand-arm vibration
+of a Grass Trimmer: Length of thread (1=100mm, 2=150, 3=200),
+Engine speed (1=3000rpm, 2=4000, 3=5000), and Material of Handle (1=Wood,
+2=Aluminum, 3=Acrylonitrile Butadiene Styrene (ABS) pipe).
+
+Variables/Columns
+Run number     8
+Length (Coded)   16
+Engine speed (coded)  24
+Material of handle (coded)  32
+Hand-arm vibration score    34-40

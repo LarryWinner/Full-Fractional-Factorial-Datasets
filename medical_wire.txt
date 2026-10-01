@@ -1,0 +1,22 @@
+Dataset: medical_wire.dat"
+
+Source: B. Nepal, S. Mohanty, L. Kay (2013). "Quality Improvement of
+Medical Wire Manufacturing Process," Quality Improvement, Vol. 25, pp. 151-163
+
+Description: Fractional factorial experiment relating 4 factors to
+Yield Strength/Ultimate Tensile Strength (%) in Medical Wire. Run
+in 3 Blocks with 5 replicate measurements per wire spool.
+Factors: Drawing Machine, Die Reduction Angle, Die Bearing Length,
+Supply Diameter. Each factor at 2 levels.
+Experiment run as 2^(4-1) in each block, with I=ABCD
+
+Variables/Columns
+Spool ID     7-8
+Block 16
+Factor A Level   24   /* 0=Low, 1=High  */
+Factor B Level   32   /* 0=Low, 1=High  */
+Factor C Level   40   /* 0=Low, 1=High  */
+Factor D Level   48   /* 0=Low, 1=High  */
+YS/UTS (percent)  50-56
+
+

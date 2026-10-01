@@ -1,0 +1,17 @@
+Dataset: ftcal_npp.dat
+
+Source: B. Patel and C. Heising (1997). "Statistical Analysis of the
+Fort Calhoun Reactor Coolant Pump System," Annals of Nuclear Energy,
+Vol. 24, #3, pp. 167-175.
+
+Description: 2^5 full factorial relating Response Motor Input (kw) to 5 
+factors (A=Upper Guide Bearing Temperature, B=Upper thrust bearing temp,
+C=Lower Thrust Bearing Temp, D=Lower Guide Bearing Temp, E=seal winding temp)
+
+Variables/Columns
+Factor A coded Value  7-8   /* -1=140, +1=160
+Factor B coded Value  15-16   /* -1=140, +1=160
+Factor C coded Value  23-24   /* -1=140, +1=160
+Factor D coded Value  31-32   /* -1=140, +1=160
+Factor E coded Value  39-40   /* -1=140, +1=160
+RCP Motor Power Input   44-48

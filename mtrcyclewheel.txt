@@ -1,0 +1,24 @@
+Dataset: mtrcyclewheel.dat
+
+Source: K.S. Tan, S.V. Wong, R.S. Radin Umar, A.M.S. Hamouda, and N.K. Gupta (2009).
+"Impact Behavior Modeling of Motorcycle Front Wheel-Tire assembly,"
+International Journal of Automotive Technology, Vol. 10, #3, pp. 329-339.
+
+Description: Results of a 2^(5-1) fractional factorial experiment measuring Y = crush radius
+on front wheel of a motorcycle tire. Factors and levels are (where D is confounded with SMPG interaction):
+S = Impact Speed (meters/second) (3, 6)
+M = Impact Mass (kg)   (51.18, 101.33)
+P = Tire Pressure (kPa)  (148, 252)
+G = Striker Contact Geometry (radius= 0.03, 0.10)
+D = Impact offset Distance (m) (height= 0, 0.108)
+
+
+Variables/Coumns
+Treatment    7-8
+Impact speed   15-16   /* -1=3, +1=6  */
+Impact Mass    23-24   /* -1=51.18, +1=101.33  */
+Tire Pressure  31-32   /* -1=148, +1=252  */
+Striker Contact Geometry  39-40  /* -1=0.03, +1=0.10  */
+Impact Offset Distance  47-48   /* -1=0, +1=0.108 */
+crush radius         52-56
+run order          63-64

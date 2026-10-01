@@ -1,0 +1,31 @@
+Dataset:  malt_sod_pb.dat
+
+Source: D-J Meng, J. Lu, W. Fan, J-J Dong, Y. Lin, and L-J Shan (2007).
+"Control of Superoxide Dismutase Activity During Malting Using
+Plackett-Burman and Box-Behnken Experimental Design and Its Effect
+on Reducing Power of Wort," Journal of the Institute of Brewing,
+Vol. 113, #4, pp.365-373.
+
+Description: Results of a Plackett-Burman design to screen 8 2-level factors
+in 12 runs. Dependent Variable = SOD (U/g). Factors
+X1 = Steeping Temp (C) -1=14, +1=18
+X2 = Steeping Time (hrs)  -1=24, +1=48
+X3 = Germination Temp (C)  -1=12, +1=20
+X4 = Peroxide hydrogen conc in steeping water (g/L)  -1=0, +1=0.2
+X5 = Germination Time (days)  -1=4, +1=8
+X6 = Withering Temp (C) (10h)  -1=35, +1=50
+X7 = Drying Temp (C) (6h)  -1=55, +1=65
+X8 = Kilning Temp (C) (4h)  -1=70, +1=90
+
+
+Variables/Columns
+Run #   7-8
+Coded Steeping Temp   15-16
+  "   Steeping Time   23-24
+  "   Germination Temp  31-32
+  "   Peroxide/hydrogen conc   39-40
+  "   Germination Time     47-48
+  "   Withering Temp      55-56
+  "   Drying Temp       63-64
+  "   Kilning Temp     71-72
+SOD                    74-80 
